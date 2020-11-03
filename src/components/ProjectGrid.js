@@ -2,9 +2,9 @@ import React from "react";
 
 const ProjectGrid = (props) => {
   return (
-    <div className="project-preview">
+    <div id="project-grid">
       {props.projects.map((project) => (
-        <div key={project.id}>
+        <div className="project-preview" key={project.id}>
           <a href={project.url}>
             <img className="project-thumbnail" src={project.thumbnail} alt="" />
             <div className="project-summary">

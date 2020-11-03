@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header";
 import ProjectGrid from "../components/ProjectGrid";
 
 const Work = () => {
@@ -39,9 +40,10 @@ const Work = () => {
     },
   ];
   return (
-    <div>
+    <main>
+      <Header />
       <ProjectGrid projects={projects} />
-    </div>
+    </main>
   );
 };
 
