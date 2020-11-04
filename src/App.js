@@ -6,15 +6,15 @@ import About from "./containers/About";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Work} />
           <Route exact path="/about" component={About} />
+          <Route path="/" component={Work} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
