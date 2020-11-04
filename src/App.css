@@ -116,9 +116,6 @@ nav {
 .container {
   margin: auto;
   padding: 0 30px;
-}
-
-main {
   max-width: 900px;
   margin: auto;
 }
@@ -137,14 +134,12 @@ main {
 .container,
 nav,
 #bio-grid,
-main,
 footer,
 menu {
   display: flex;
 }
 
-.container,
-main {
+.container {
   flex-direction: column;
 }
 

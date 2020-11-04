@@ -40,10 +40,10 @@ const Work = () => {
     },
   ];
   return (
-    <main>
+    <div className="container">
       <Header />
       <ProjectGrid projects={projects} />
-    </main>
+    </div>
   );
 };
 
