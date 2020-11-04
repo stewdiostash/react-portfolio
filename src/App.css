@@ -114,10 +114,9 @@ nav {
 /* Layout */
 
 .container {
-  margin: auto;
+  margin: 0 auto;
   padding: 0 30px;
   max-width: 900px;
-  margin: auto;
 }
 
 #hey {
@@ -148,6 +147,7 @@ menu {
 .footer {
   height: 200px;
   background-color: thistle;
+  margin-top: 20vh;
 }
 
 .App {
