@@ -1,10 +1,11 @@
 import React from "react";
+import as_photo from "../assets/images/as_photo.jpg";
 
 const About = () => {
   return (
     <div class="container">
       <div id="bio-grid">
-        <img id="portrait" src="./images/as_photo.jpg" alt="portrait" />
+        <img id="portrait" src={as_photo} alt="portrait" />
 
         <div id="link-group">
           <a

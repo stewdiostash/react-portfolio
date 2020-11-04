@@ -131,6 +131,7 @@ nav {
 
 /* Flexbox */
 
+.App,
 .container,
 nav,
 #bio-grid,
@@ -139,8 +140,19 @@ menu {
   display: flex;
 }
 
+.App,
 .container {
   flex-direction: column;
+}
+
+.footer {
+  height: 200px;
+  background-color: thistle;
+}
+
+.App {
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 nav {

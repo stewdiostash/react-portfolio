@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Work from "./containers/Work";
 import About from "./containers/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" component={Work} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

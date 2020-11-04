@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
 import ProjectGrid from "../components/ProjectGrid";
+import bandwich_thumb from "../assets/images/bandwich.png";
 
 const Work = () => {
   const projects = [
     {
       id: 1,
       title: "Bandwich",
-      thumbnail: "images/bandwich.png",
+      thumbnail: bandwich_thumb,
       summary:
         "A simple 4-track recording interface designed with collaboration in mind",
       url: "https://bandwich-app.herokuapp.com/",
