@@ -76,11 +76,13 @@ a {
   font-size: 24px;
 }
 
+a,
 .menu-item,
 .caption.git-link {
   color: rgba(255, 255, 255, 0.8);
 }
 
+a,
 .menu-item:hover,
 .caption.git-link:hover {
   color: rgba(255, 255, 255, 1);
@@ -94,6 +96,7 @@ a {
 
 nav {
   height: 100px;
+  padding: 0 30px;
 }
 
 #here {
