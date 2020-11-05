@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../components/Header";
 import ProjectGrid from "../components/ProjectGrid";
 import bandwich_thumb from "../assets/images/bandwich.png";
+import weather_thumb from "../assets/images/forecast.png";
+import burger_thumb from "../assets/images/burgerbuddy.png";
+import playtsafe_thumb from "../assets/images/playtsafe.png";
 
 const Work = () => {
   const projects = [
@@ -17,7 +20,7 @@ const Work = () => {
     {
       id: 2,
       title: "Weather Dashboard",
-      thumbnail: "images/forecast.png",
+      thumbnail: weather_thumb,
       summary:
         " Responsive weather dashboard linked to multiple Openweathermap APIs",
       url: "https://stewdiostash.github.io/hw-06-weather-dashboard/",
@@ -26,7 +29,7 @@ const Work = () => {
     {
       id: 3,
       title: "Burger Buddy",
-      thumbnail: "images/burgerbuddy.png",
+      thumbnail: burger_thumb,
       summary: "Keeping a persistent tally of cullinary conquests with MySQL",
       url: "https://burger-buddy-app.herokuapp.com/",
       github: "https://github.com/stewdiostash/Burger-Buddy",
@@ -34,7 +37,7 @@ const Work = () => {
     {
       id: 4,
       title: "Play'tSafe",
-      thumbnail: "images/playtsafe.png",
+      thumbnail: playtsafe_thumb,
       summary: "Time-saving app that proposes creative movie and dinner combos",
       url: "https://stewdiostash.github.io/PlaytSafe/",
       github: "https://github.com/stewdiostash/PlaytSafe",

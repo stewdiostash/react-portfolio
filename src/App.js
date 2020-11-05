@@ -9,13 +9,17 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/about" component={About} />
-          <Route path="/" component={Work} />
-        </Switch>
+        <div>
+          <Navbar />
+          <Switch>
+            <Route exact path="/about" component={About} />
+            <Route path="/" component={Work} />
+          </Switch>
+        </div>
+        <div>
+          <Footer />
+        </div>
       </Router>
-      <Footer />
     </div>
   );
 }
