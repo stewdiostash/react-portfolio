@@ -1,5 +1,6 @@
 import React from "react";
 import as_photo from "../assets/images/as_photo.jpg";
+import resume from "../assets/ref/as-resume-2020.pdf";
 
 const About = () => {
   return (
@@ -29,11 +30,7 @@ const About = () => {
           >
             UX and design work &rarr;
           </a>
-          <a
-            class="social-link caption"
-            href="ref/as-resume-2020.pdf"
-            class="caption git-link"
-          >
+          <a class="social-link caption" href={resume} class="caption git-link">
             Resume &rarr;
           </a>
           <a
