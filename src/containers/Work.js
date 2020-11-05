@@ -5,6 +5,8 @@ import bandwich_thumb from "../assets/images/bandwich.png";
 import weather_thumb from "../assets/images/forecast.png";
 import burger_thumb from "../assets/images/burgerbuddy.png";
 import playtsafe_thumb from "../assets/images/playtsafe.png";
+import quiz_thumb from "../assets/images/quiz.png";
+import team_thumb from "../assets/images/team-profile.png";
 
 const Work = () => {
   const projects = [
@@ -41,6 +43,24 @@ const Work = () => {
       summary: "Time-saving app that proposes creative movie and dinner combos",
       url: "https://stewdiostash.github.io/PlaytSafe/",
       github: "https://github.com/stewdiostash/PlaytSafe",
+    },
+    {
+      id: 5,
+      title: "Code Quiz",
+      thumbnail: quiz_thumb,
+      summary: "An interactive, timed quiz to test coding knowledge",
+      url: "https://stewdiostash.github.io/hw-04-timed-quiz/",
+      github: "https://github.com/stewdiostash/hw-04-timed-quiz",
+    },
+    {
+      id: 6,
+      title: "Team Profile Generator",
+      thumbnail: team_thumb,
+      summary: "Node CLI that generates visual team member profiles",
+      url:
+        "https://github.com/stewdiostash/hw-09-Employee-Profile-Template-Engine",
+      github:
+        "https://github.com/stewdiostash/hw-09-Employee-Profile-Template-Engine",
     },
   ];
   return (
