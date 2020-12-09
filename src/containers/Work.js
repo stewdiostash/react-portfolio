@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 const Work = () => {
   const projects = [
     {
-      id: 2,
+      id: 1,
       title: "Ciphr",
       thumbnail: ciphr_thumb,
       summary: "Solve and share algorithms with your peers",

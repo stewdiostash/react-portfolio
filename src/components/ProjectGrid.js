@@ -28,10 +28,10 @@ const ProjectGrid = (props) => {
                 src={project.thumbnail}
                 // style={{ visibility: "hidden" }}
                 alt=""
-                whileHover={{
-                  opacity: 0,
-                }}
-                transition={{ duration: 0.3 }}
+                // whileHover={{
+                //   opacity: 0,
+                // }}
+                // transition={{ duration: 0.3 }}
               />
             </div>
             <div className="project-summary">

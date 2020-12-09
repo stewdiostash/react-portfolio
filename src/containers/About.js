@@ -39,12 +39,19 @@ const About = () => {
         </div>
         <div className="statement thistle">
           <p>
-            I believe the digital products we use every day fundamentally change
-            the way we see the world, and I aspire to help shape experiences
-            that delight, inspire and empower end users.
+            In a nutshell: I believe the digital products we use every day
+            fundamentally change the way we see the world, and I aspire to help
+            shape experiences that delight, inspire and empower end users. Life
+            is too short for joy-sucking software!
           </p>
 
-          <p>Currently enrolled in Georgia Tech's Full Stack Flex Bootcamp.</p>
+          <p>
+            I have extensive experience collaborating with product, development
+            and design systems teams to achieve complex goals. As a recent grad
+            of Georgia Tech's full-stack bootcamp, I'm looking for new
+            opportunities to collaborate closely with ambitious dev teams that
+            value creativity, craftsmanship and culture.
+          </p>
         </div>
       </div>
     </div>

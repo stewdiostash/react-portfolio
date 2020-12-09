@@ -16,9 +16,7 @@ function App() {
             <Route path="/" component={Work} />
           </Switch>
         </div>
-        <div>
-          <Footer />
-        </div>
+        <div>{/* <Footer /> */}</div>
       </Router>
     </div>
   );

@@ -5,8 +5,8 @@ const Header = () => {
     <div id="hey">
       <h2>Hey, it's Andrew—</h2>
       <h2 className="thistle">
-        I’m a product designer and dev-in-training camped out at the
-        intersection of design and code.
+        I’m a product designer and developer camped out at the intersection of
+        design and code. &#128293;
       </h2>
     </div>
   );
