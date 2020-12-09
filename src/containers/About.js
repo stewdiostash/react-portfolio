@@ -4,44 +4,40 @@ import resume from "../assets/ref/as-resume-2020.pdf";
 
 const About = () => {
   return (
-    <div class="container">
+    <div className="container">
       <div id="bio-grid">
         <img id="portrait" src={as_photo} alt="portrait" />
 
         <div id="link-group">
           <a
-            class="social-link caption"
+            className="social-link caption git-link"
             href="https://github.com/stewdiostash"
-            class="caption git-link"
           >
             On Github &rarr;
           </a>
           <a
-            class="social-link caption"
+            className="social-link caption git-link"
             href="https://www.linkedin.com/in/andrewstewartwork/"
-            class="caption git-link"
           >
             Linkedin &rarr;
           </a>
           <a
-            class="social-link caption"
+            className="social-link caption git-link"
             href="https://stewdioland.com"
-            class="caption git-link"
           >
             UX and design work &rarr;
           </a>
-          <a class="social-link caption" href={resume} class="caption git-link">
+          <a className="social-link caption git-link" href={resume}>
             Resume &rarr;
           </a>
           <a
-            class="social-link caption"
+            className="social-link caption git-link"
             href="mailto:andrew@stewdioland.com"
-            class="caption git-link"
           >
             Email me! &rarr;
           </a>
         </div>
-        <div class="statement thistle">
+        <div className="statement thistle">
           <p>
             I believe the digital products we use every day fundamentally change
             the way we see the world, and I aspire to help shape experiences
