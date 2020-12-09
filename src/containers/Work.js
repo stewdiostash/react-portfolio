@@ -4,14 +4,23 @@ import ProjectGrid from "../components/ProjectGrid";
 import bandwich_thumb from "../assets/images/bandwich.png";
 import weather_thumb from "../assets/images/forecast.png";
 import burger_thumb from "../assets/images/burgerbuddy.png";
-import playtsafe_thumb from "../assets/images/playtsafe.png";
+import ciphr_thumb from "../assets/images/ciphr.png";
 import quiz_thumb from "../assets/images/quiz.png";
 import team_thumb from "../assets/images/team-profile.png";
+import { motion } from "framer-motion";
 
 const Work = () => {
   const projects = [
     {
-      id: 1,
+      id: 2,
+      title: "Ciphr",
+      thumbnail: ciphr_thumb,
+      summary: "Solve and share algorithms with your peers",
+      url: "https://ciphr.dev/",
+      github: "https://github.com/stewdiostash/ciphr",
+    },
+    {
+      id: 2,
       title: "Bandwich",
       thumbnail: bandwich_thumb,
       summary:
@@ -20,7 +29,7 @@ const Work = () => {
       github: "https://github.com/stewdiostash/bandwich",
     },
     {
-      id: 2,
+      id: 3,
       title: "Weather Dashboard",
       thumbnail: weather_thumb,
       summary:
@@ -29,20 +38,12 @@ const Work = () => {
       github: "https://github.com/stewdiostash/hw-06-weather-dashboard",
     },
     {
-      id: 3,
+      id: 4,
       title: "Burger Buddy",
       thumbnail: burger_thumb,
       summary: "Keeping a persistent tally of cullinary conquests with MySQL",
       url: "https://burger-buddy-app.herokuapp.com/",
       github: "https://github.com/stewdiostash/Burger-Buddy",
-    },
-    {
-      id: 4,
-      title: "Play'tSafe",
-      thumbnail: playtsafe_thumb,
-      summary: "Time-saving app that proposes creative movie and dinner combos",
-      url: "https://stewdiostash.github.io/PlaytSafe/",
-      github: "https://github.com/stewdiostash/PlaytSafe",
     },
     {
       id: 5,
