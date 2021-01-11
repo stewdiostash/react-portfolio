@@ -34,8 +34,8 @@ const Work = () => {
       thumbnail: weather_thumb,
       summary:
         " Responsive weather dashboard linked to multiple Openweathermap APIs",
-      url: "https://stewdiostash.github.io/hw-06-weather-dashboard/",
-      github: "https://github.com/stewdiostash/hw-06-weather-dashboard",
+      url: "https://stewdiostash.github.io/weather-dashboard/",
+      github: "https://github.com/stewdiostash/weather-dashboard",
     },
     {
       id: 4,
@@ -43,25 +43,24 @@ const Work = () => {
       thumbnail: burger_thumb,
       summary: "Keeping a persistent tally of cullinary conquests with MySQL",
       url: "https://burger-buddy-app.herokuapp.com/",
-      github: "https://github.com/stewdiostash/Burger-Buddy",
+      github: "https://github.com/stewdiostash/burger-buddy",
     },
     {
       id: 5,
       title: "Code Quiz",
       thumbnail: quiz_thumb,
       summary: "An interactive, timed quiz to test coding knowledge",
-      url: "https://stewdiostash.github.io/hw-04-timed-quiz/",
-      github: "https://github.com/stewdiostash/hw-04-timed-quiz",
+      url: "https://stewdiostash.github.io/timed-code-quiz/",
+      github: "https://github.com/stewdiostash/timed-code-quiz",
     },
     {
       id: 6,
       title: "Team Profile Generator",
       thumbnail: team_thumb,
       summary: "Node CLI that generates visual team member profiles",
-      url:
-        "https://github.com/stewdiostash/hw-09-Employee-Profile-Template-Engine",
+      url: "https://github.com/stewdiostash/employee-profile-template-engine",
       github:
-        "https://github.com/stewdiostash/hw-09-Employee-Profile-Template-Engine",
+        "https://github.com/stewdiostash/employee-profile-template-engine",
     },
   ];
   return (
